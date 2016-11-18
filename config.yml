@@ -1,0 +1,22 @@
+##############################################
+#               Ultra Warn                   #
+##############################################
+
+#Variables: {warn_points} {kick_points} {ban_points} {player}
+On_Server_Join: '&c[Warn] &fWelcome back, you have &4{warn_points}&f!'
+
+punish_players: 'true'
+
+punish_ban: 'false'
+
+#Number of points till a player is kicked.
+Kick_Points: 3
+
+Kick_Message: '&c[Warn] &fYou have been kicked from the server for having &c{kick_points} &fwarning points!'
+#Reset the points after a player is kicked. Note: This is auto disabled if banning is enabled.
+Reset_points: 'true'
+
+#Number of points till a player is banned forever. Note: this is disabled by default!
+Ban_Points: 7
+
+Ban_Message: '&c[Warn] &fYou have been banned from the server for having &c{ban_points} &fwarning points!'

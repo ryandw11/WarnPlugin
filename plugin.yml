@@ -1,0 +1,9 @@
+name: UltraWarn
+version: 1.0
+main: me.ryandw11.ultrawarn.core.Main
+author: ryandw11
+description: This is a warning/report plugin!
+commands:
+    warn:
+     description: Main command for ultrawarn!
+     aliases: [UltraWarn, uwarn, uw]
